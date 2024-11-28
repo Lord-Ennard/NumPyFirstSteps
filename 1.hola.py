@@ -7,15 +7,12 @@ matriz = arreglo.array('i',[1,2,3])
 ## A list is a collection of data
 lista = [1,2,3]
 print(lista)
-
 ##An array is a data structure, each number occupies a space in memory
 nuevaMatriz = np.array([1,2,3])
 print(nuevaMatriz)
-
 ##The good thing about numpy is that you don't have to declare the data type of your array
 
 ##Adding values
-
 lista.append(8)
 nuevaMatriz = nuevaMatriz + np.array([8])
 print(lista)
@@ -54,3 +51,4 @@ print("\n")
 # parameter indicates the number of columns
 generated = np.arange(10).reshape(2,5)
 print(generated)
+
